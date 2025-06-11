@@ -8,7 +8,7 @@ def clear_screen():
     os.system('clear' if os.name == 'posix' else 'cls')
 
 def loading_animation():
-    msg = "AMNA HACKING TOOLS IS STARTING"
+    msg = "ANSAR HACKING TOOLS IS STARTING"
     for c in msg:
         print(c, end='', flush=True)
         time.sleep(0.1)
@@ -23,11 +23,11 @@ def display_header():
     print("\033[1;32m╔═════════════════════════════════════╗")
     print("║     HTML + CSS COPY TOOL v2.1      ║")
     print("╚═════════════════════════════════════╝")
-    print("\033[0;91m         DEVELOPED BY AmnaRajpoot\033[0m\n")
+    print("\033[0;91m         DEVELOPED BY AnsarPanhwar\033[0m\n")
 
 def main_menu():
     print("\033[1;36m[1] COPY WEBSITE HTML + CSS")
-    print("[2] JOIN TOOL OWNER AMNA WHATSAPP CHANNEL\033[0m")
+    print("[2] JOIN TOOL OWNER ANSAR WHATSAPP CHANNEL\033[0m")
     return input("\n📥 ENTER OPTION (1/2): ").strip()
 
 def post_copy_menu():
